@@ -1,6 +1,6 @@
 use super::{
   user_command::{AccountId, UserId},
-  utils::{Datetime, Email, Password, Phone},
+  utils::{Datetime, Email, Phone},
 };
 
 pub struct User {
@@ -15,6 +15,5 @@ pub struct Account {
   pub account_id: AccountId,
   pub user_id: UserId,
   pub email: Email,
-  pub password: Password,
   pub created_at: Datetime,
 }
